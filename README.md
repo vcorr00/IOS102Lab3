@@ -24,8 +24,12 @@ Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove th
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+
 The use of API requests, parsing the JSON files into data that can be attatched to variables
-Constraints and auto layout issues
+Constraints and auto layout issues. I easly spent at least 30hrs on this project due to those challenges
+
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]
