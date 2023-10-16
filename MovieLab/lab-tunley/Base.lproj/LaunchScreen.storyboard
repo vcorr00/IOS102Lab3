@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gS9-cH-mBR">
+                                <rect key="frame" x="43" y="236" width="299" height="309"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image Icon" translatesAutoresizingMaskIntoConstraints="NO" id="2SD-qN-M4M">
+                                        <rect key="frame" x="20" y="20" width="259" height="227"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FLIXTER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duS-65-NSr">
+                                        <rect key="frame" x="117" y="268" width="65" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="7jO-qU-cil"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="duS-65-NSr" firstAttribute="top" secondItem="2SD-qN-M4M" secondAttribute="bottom" constant="21" id="1u1-RF-SnO"/>
+                                    <constraint firstItem="XJl-yP-Yba" firstAttribute="bottom" secondItem="duS-65-NSr" secondAttribute="bottom" constant="20" id="C9j-91-29k"/>
+                                    <constraint firstAttribute="trailing" secondItem="2SD-qN-M4M" secondAttribute="trailing" constant="20" id="ZNI-IS-AaI"/>
+                                    <constraint firstItem="2SD-qN-M4M" firstAttribute="centerX" secondItem="duS-65-NSr" secondAttribute="centerX" id="pNY-H9-Lrx"/>
+                                    <constraint firstItem="2SD-qN-M4M" firstAttribute="centerX" secondItem="gS9-cH-mBR" secondAttribute="centerX" id="puK-xE-Ff7"/>
+                                    <constraint firstItem="2SD-qN-M4M" firstAttribute="leading" secondItem="XJl-yP-Yba" secondAttribute="leading" constant="20" id="unI-y9-QPs"/>
+                                    <constraint firstItem="2SD-qN-M4M" firstAttribute="top" secondItem="XJl-yP-Yba" secondAttribute="top" constant="20" id="v6W-ay-5Ix"/>
+                                    <constraint firstAttribute="bottom" secondItem="duS-65-NSr" secondAttribute="bottom" constant="20" id="wuX-FM-A0n"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="FPk-tM-1eM"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="XJl-yP-Yba"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="gS9-cH-mBR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="177" id="CQo-MO-XTv"/>
+                            <constraint firstItem="gS9-cH-mBR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="LmU-oR-WfI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gS9-cH-mBR" secondAttribute="bottom" constant="273" id="Ti5-mR-IvG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gS9-cH-mBR" secondAttribute="trailing" constant="51" id="vcx-Ob-gec"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image Icon" width="1024" height="1024"/>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
